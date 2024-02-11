@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos&family=Lora:ital@1&family=Sono:wght@600&family=Tiro+Devanagari+Marathi&family=Varela+Round&display=swap');
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    height: 100%;
+    table-layout: fixed;
+}
+.inword{
+    font-family: 'Genos', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Sono', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    z-index: 1;
+    color: rgb(223, 75, 75);
+    margin-left: 380px;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    max-width: 100px;
+    word-wrap: break-word;
+}
+
+tr:nth-child(even) {
+    background-color: #c2a64c;
+}
+
+h1 {
+    color: green;
+}
+
+.forms{
+    position: relative;
+    left: 10;
+    top: 5;
+    background-color: rgb(246, 244, 244);
+    padding: 20px;
+    padding-right: 10px;
+    display: flex;
+    width: 877px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.forms input{
+    float: right;
+    width: 14rem;
+    height: 1.5rem;
+}
+.formLeft{
+    float: left;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+
+.formRight{
+    float: right;
+}
+
+.space{
+    width: 20px;
+}
+.tables{
+    position: relative;
+    top: 500px;
+}
+
+#addRow{
+    height: 3rem;
+    /* display: block; */
+    /* position: fixed; */
+    margin-left: 316px;
+    background-color: rgb(105, 105, 241);
+    font-weight: bold;
+    color: aliceblue;
+    border-color: blue;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: center;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; /* Dark green */
+  }
+  
